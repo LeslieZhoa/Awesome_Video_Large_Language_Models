@@ -8,6 +8,15 @@ A curated collection of papers on **video large language models**, organized aro
 
 The collection also covers model architectures, audio-visual and omni models, training data, post-training, and evaluation, with selected foundational work on visual alignment and motion representation.
 
+## Survey Paper
+
+**[A Review of Video Large Language Models: From Spatiotemporal Representations to Reliable Reasoning](https://zenodo.org/records/24310884)**  
+Xiang Zhao · Zenodo preprint, 2026
+
+The survey analyzes how video models learn task-relevant representations, preserve and retrieve evidence from long videos, and use intermediate observations and feedback for reliable reasoning. It connects these questions to data, training, and evaluation.
+
+[Read the paper](https://zenodo.org/records/24310884) · [DOI](https://doi.org/10.5281/zenodo.24310884) · [Citation](#citation)
+
 ## Contents
 
 - [Surveys](#surveys)
@@ -201,3 +210,19 @@ Explicit and implicit motion representations for animation and controllable gene
 | [LivePortrait: Efficient Portrait Animation with Stitching and Retargeting Control](https://arxiv.org/abs/2407.03168) | [LivePortrait](https://huggingface.co/KlingTeam/LivePortrait) | 2024-07 | Preprint | [Code](https://github.com/KlingAIResearch/LivePortrait) · [Project](https://liveportrait.github.io/) | Implicit keypoint motion transfer; stitching and eye/lip retargeting enhance control |
 | [X-Portrait: Expressive Portrait Animation with Hierarchical Motion Attention](https://arxiv.org/abs/2403.15931) | [X-Portrait](https://drive.google.com/drive/folders/1Bq0n-w1VT5l99CoaVg02hFpqE5eGLo9O) | 2024-03 | [SIGGRAPH 2024](https://doi.org/10.1145/3641519.3657459) | [Code](https://github.com/bytedance/X-Portrait) · [Project](https://byteaigc.github.io/x-portrait/) | Learned motion control from RGB driving inputs; local attention refines facial expressions |
 | [First Order Motion Model for Image Animation](https://arxiv.org/abs/2003.00196) | FOMM | 2019 | [NeurIPS 2019](https://proceedings.neurips.cc/paper/2019/hash/31c0b36aef265d9221af80872ceb62f9-Abstract.html) | [Code](https://github.com/AliaksandrSiarohin/first-order-model) · [Project](https://aliaksandrsiarohin.github.io/first-order-model-website/) | Self-supervised keypoints and local affine transformations for image animation |
+
+## Citation
+
+If you find the survey useful, please cite:
+
+```bibtex
+@misc{zhao2026videollmsurvey,
+  author       = {Zhao, Xiang},
+  title        = {A Review of Video Large Language Models: From Spatiotemporal Representations to Reliable Reasoning},
+  year         = {2026},
+  publisher    = {Zenodo},
+  howpublished = {Zenodo preprint},
+  doi          = {10.5281/zenodo.24310884},
+  url          = {https://doi.org/10.5281/zenodo.24310884}
+}
+```
